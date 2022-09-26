@@ -1,1 +1,13 @@
-# myleetcode
+# Leetcode
+- array
+- class
+- dictionary
+- dynamic_programming
+- graph
+- heap
+- linked_list
+- math/bit
+- recursive
+- search
+- stack
+- tree

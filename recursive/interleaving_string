@@ -1,0 +1,37 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Jun  3 21:21:32 2021
+
+@author: jinlingxing
+"""
+
+class Solution:
+    def isInterleave(self, s1: str, s2: str, s3: str) -> bool:
+        N = len(s3)
+        A, B = len(s1), len(s2)
+        if A+B != N: return False
+        memo = {}
+        # recursive function
+        def rec(i,j,k):  
+            if (i,j,k) in memo:
+                return memo[(i,j,k)]
+            # base case
+            if i==A and j==B and k==N:
+                return True
+            b1, b2 = False, False
+            if i < A and s1[i] == s3[k]:
+                b1 = rec(i+1, j, k+1)
+            if j < B and s2[j] == s3[k]:
+                b2 = rec(i, j+1, k+1)
+            memo[(i,j,k)] = b1 or b2
+            return b1 or b2
+        
+        return rec(0,0,0)
+    
+
+sol = Solution()
+s1='ab'
+s2='bc'
+s3='abcb'
+sol.isInterleave(s1, s2, s3)
