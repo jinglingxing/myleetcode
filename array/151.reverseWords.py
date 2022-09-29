@@ -48,3 +48,12 @@ class Solution:
                 res.append(s[i])
         
         return ' '.join(res)
+
+
+class Solution:
+    def reverseWords(self, s: str) -> str:
+        # remove leading and ending space
+        no_leading_space_string = s.strip()  # " hello word "
+        split_string = no_leading_space_string.split(' ')
+        split_string = [x for x in split_string if x]
+        return " ".join(split_string[::-1])
