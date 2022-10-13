@@ -40,13 +40,28 @@ Do not return anything from your function.
 #         self.val = x
 #         self.next = None
 
+
 class Solution:
     def deleteNode(self, node):
         """
         :type node: ListNode
         :rtype: void Do not return anything, modify node in-place instead.
         """
-        if node.next != None:
+        if node.next:
             node.val = node.next.val
             node.next = node.next.next
-            
+
+
+class Solution:
+    def deleteNode(self, node):
+        """
+        :type node: ListNode
+        :rtype: void Do not return anything, modify node in-place instead.
+        """
+        # update current node with next node details
+        next_node = node.next
+        # update the current node's value
+        node.val = next_node.val
+        # update the current node's next to the next of next
+        node.next = next_node.next
+        next_node.next = None
