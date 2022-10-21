@@ -21,6 +21,7 @@ Example 3:
 Input: nums = [1,2,3,1,2,3], k = 2
 Output: false
 '''
+
 class Solution:
     def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
         if len(nums) == len(set(nums)):
@@ -30,4 +31,15 @@ class Solution:
                 if nums[i] == nums[j] and j-i <= k:
                     return True
         return False
-                    
+
+
+class Solution:
+    def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
+        if len(nums) == len(set(nums)):
+            return False
+        for i in range(len(nums)):
+            # don't need to check the full for loops, we can just check the numbers within k length
+            for j in range(i+1, i+k+1):
+                if i+j < len(nums) and nums[i] == nums[j]:
+                    return True
+        return False
