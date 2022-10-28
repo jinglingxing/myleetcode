@@ -37,7 +37,22 @@ class Solution:
                 res[line[0]] = [line[1]]
         return res.values()
 
-if __name__=='__main__':
+
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        dic = {}
+        for str_ in strs:
+            sort_str = sorted(str_)
+            sorted_str = ''.join(sort_str)
+
+            if sorted_str not in dic:
+                dic[sorted_str] = [str_]
+            else:
+                dic[sorted_str].append(str_)
+        return list(dic.values())
+
+
+if __name__ == '__main__':
     inp = ["eat", "tea", "tan", "ate", "nat", "bat"]
     sol = Solution()
     out = sol.groupAnagrams(inp)
