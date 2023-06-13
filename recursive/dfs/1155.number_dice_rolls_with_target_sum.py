@@ -29,28 +29,26 @@ class Solution:
     def numRollsToTarget(self, n: int, k: int, target: int) -> int:
         mod = int(1e9 + 7)
 
-        @lru_cache(None)
+        # @lru_cache(None)
         def dfs(roll_left: int, target_left: int):
+            if target_left < 0:
+                return 0
 
             if roll_left == 0:
-                if target_left == 0:
-                    return 1
-                else:
-                    return 0
+                return (0 if target_left else 1)
+
             sum = 0
             for i in range(1, k + 1):
                 if target_left >= i:
                     sum += dfs(roll_left - 1, target_left - i)
             return sum
 
-        #         @lru_cache(None)
-        #         def dfs(roll_left: int, target_left:int):
-        #             if target_left < 0:
-        #                 return 0
-
-        #             if roll_left == 0:
-        #                 return (0 if target_left else 1)
-
-        #             return sum([dfs(roll_left-1, target_left-i) for i in range(1, k+1)])
-
         return dfs(n, target) % mod
+
+
+if __name__ == '__main__':
+    n = 2
+    k = 6
+    target = 7
+    sol = Solution()
+    sol.numRollsToTarget(n, k, target)
