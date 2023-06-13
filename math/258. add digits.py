@@ -24,3 +24,13 @@ class Solution:
         if num % 9 == 0:
             return 9
         return num%9
+
+
+class Solution:
+    def addDigits(self, num: int) -> int:
+        while num >= 10:
+            num1 = num // 10
+            reminder = num % 10
+            num = num1 + reminder
+
+        return num
