@@ -37,9 +37,36 @@ class Solution:
             cur.next = ListNode(carry%10)
             cur = cur.next
             carry //= 10
-        return dummy.next            
-            
-            
+        return dummy.next
+
+
+class Solution:
+    def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
+        l1_list = []
+        l2_list = []
+
+        while l1:
+            l1_list.append(str(l1.val))
+            l1 = l1.next
+
+        while l2:
+            l2_list.append(str(l2.val))
+            l2 = l2.next
+
+        sum_ = int("".join(l1_list[::-1])) + int("".join(l2_list[::-1]))
+
+        str_sum = list(str(sum_))[::-1]
+        head = ListNode(str_sum[0])
+        node = head
+        i = 1
+        while i < len(str_sum):
+            node.next = ListNode(str_sum[i])
+            node = node.next
+            i += 1
+
+        return head
+
+
 sol = Solution()
 #(2 -> 4 -> 3) + (5 -> 6 -> 4)
 # l1 = ListNode(2)
