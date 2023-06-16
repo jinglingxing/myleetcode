@@ -17,13 +17,11 @@ class Solution:
     def sortedArrayToBST(self, nums: List[int]) -> TreeNode:
         if len(nums) == 0:
             return None
-        if len(nums) == 1:
-            return TreeNode(nums[0])
-        
         mid = len(nums)//2
         root = TreeNode(nums[mid])
-        left_list = nums[0:mid]
-        right_list = nums[mid+1:]
-        root.left = self.sortedArrayToBST(left_list)
-        root.right = self.sortedArrayToBST(right_list)
+        left_branch = nums[:mid]
+        right_branch = nums[mid+1:]
+
+        root.left = self.sortedArrayToBST(left_branch)
+        root.right = self.sortedArrayToBST(right_branch)
         return root

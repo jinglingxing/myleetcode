@@ -15,12 +15,11 @@ Created on Wed Mar  4 19:11:36 2020
 
 class Solution: 
     def maxDepth(self, root: TreeNode) -> int:
-        if root is not None:
-            left_max = self.maxDepth(root.left)
-            right_max = self.maxDepth(root.right)
-            return max(left_max, right_max)+1
-        else:
+        if not root:
             return 0
-        
+        left_max = self.maxDepth(root.left)
+        right_max = self.maxDepth(root.right)
+
+        return max(left_max, right_max) + 1
     
     
