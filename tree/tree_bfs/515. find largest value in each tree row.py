@@ -51,35 +51,30 @@ class TreeNode:
          self.val = val
          self.left = left
          self.right = right
-         
+
 
 class Solution:
-    def __init__(self):
-        self.res = []
-        
-    #leetcode 102    
-    def levelOrder(self, root: TreeNode) -> List[List[int]]:
-        if root == None:
+    def largestValues(self, root: Optional[TreeNode]) -> List[int]:
+
+        if not root:
             return []
-        q = deque([root])
+
+        q = [root]
+        res = []
+
         while q:
-            temp = []
-            for i in range(len(q)):
-                node = q.popleft()
-                temp.append(node.val)
+            level = len(q)
+            level_list = []
+            while level:
+                node = q.pop(0)
+                level_list.append(node.val)
                 if node.left:
                     q.append(node.left)
                 if node.right:
                     q.append(node.right)
-            self.res.append(temp)
-    
-    
-    def largestValues(self, root: TreeNode) -> List[int]:
-        ans = []
-        self.levelOrder(root)
-        for i in range(0, len(self.res)):
-            ans.append(max(self.res[i]))
-        return ans
+                level -= 1
+            res.append(max(level_list))
+        return res
         
     
 sol = Solution() 
