@@ -36,18 +36,24 @@ class TreeNode:
         self.right = right
 class Solution:
     def countNodes(self, root: TreeNode) -> int:      
-        if root:
-            left = self.countNodes(root.left)
-            right = self.countNodes(root.right)
-            return left+right+1
-        else:
+        # BFS
+        # if not root:
+        #     return 0
+        # q = [root]
+        # count = 1
+        # while q:
+        #     node = q.pop(0)
+        #     if node.left:
+        #         q.append(node.left)
+        #         count += 1
+        #     if node.right:
+        #         q.append(node.right)
+        #         count += 1
+        # return count
+
+        # DFS
+        if not root:
             return 0
-        
-sol = Solution()
-root = TreeNode(1)
-root.left = TreeNode(2)
-root.right = TreeNode(3)
-root.left.left = TreeNode(4)
-root.left.right = TreeNode(5)
-root.right.left = TreeNode(6)
-sol.countNodes(root)
+        left = self.countNodes(root.left)
+        right = self.countNodes(root.right)
+        return left+right+1
