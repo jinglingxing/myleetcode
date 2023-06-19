@@ -48,18 +48,17 @@ class Solution:
 #         self.left = left
 #         self.right = right
 class Solution:
-    def leafSimilar(self, root1: TreeNode, root2: TreeNode) -> bool:
-        if not root1 and not root2: return True
-        if not root1 or not root2: return False
+    def leafSimilar(self, root1: Optional[TreeNode], root2: Optional[TreeNode]) -> bool:
 
-        return self.reachedLeaves(root1, []) == self.reachedLeaves(root2, [])
-    
-    def reachedLeaves(self, root, seq):  
-        if not root.left and not root.right:
-            seq.append(root.val)
-        else:
-            if root.left:
-                self.reachedLeaves(root.left, seq)
-            if root.right:
-                self.reachedLeaves(root.right, seq)
-        return seq
+        def dfs(root, l) -> list:
+            if not root:
+                return
+
+            if not root.left and not root.right:
+                l.append(root.val)
+
+            dfs(root.left, l)
+            dfs(root.right, l)
+            return l
+
+        return dfs(root1, []) == dfs(root2, [])
