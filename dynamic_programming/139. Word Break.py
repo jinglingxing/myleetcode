@@ -15,7 +15,6 @@ class Solution:
                 sub_str = s[j:i]
                 if(sub_str in wordDict): 
                      if(dp[j] == True):
-                        print(" string: " + s[j:i])
                         dp[i] = True
                         break
         return dp[-1]
