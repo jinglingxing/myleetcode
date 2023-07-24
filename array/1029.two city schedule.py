@@ -53,7 +53,7 @@ class Solution:
         for person_cost in costs:
             #cost_diff is a list like [index of a person's cost in cost, cost difference between two cities]
             cost_diff.append([costs.index(person_cost), abs(person_cost[0]-person_cost[1])])
-        #sort the cost difference
+        #sort_algo the cost difference
         cost_diff.sort(key=lambda x: x[1])
         while countA!=0 or countB!=0:
             #get the max cost difference

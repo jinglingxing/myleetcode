@@ -8,7 +8,7 @@ Digit-logs: All words (except the identifier) consist of digits.
 Reorder these logs so that:
 
 The letter-logs come before all digit-logs.
-The letter-logs are sorted lexicographically by their contents. If their contents are the same, then sort them lexicographically by their identifiers.
+The letter-logs are sorted lexicographically by their contents. If their contents are the same, then sort_algo them lexicographically by their identifiers.
 The digit-logs maintain their relative ordering.
 Return the final order of the logs.
 
@@ -46,7 +46,7 @@ class Solution:
         print('sss', sorted([log.split()[1:] for log in letter_logs]))
 
         # Letter logs are sorted lexicographically by their contents.
-        # If their contents are the same, then sort them lexicographically by their identifiers.
+        # If their contents are the same, then sort_algo them lexicographically by their identifiers.
 
         # letter_logs: ['g1 act car', 'a8 act zoo', 'ab1 off key dog']
         letter_logs = sorted(letter_logs, key=lambda log: (log.split()[1:], log.split()[0]))

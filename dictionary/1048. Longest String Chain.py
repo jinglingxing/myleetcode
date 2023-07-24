@@ -27,7 +27,7 @@ class Solution:
     def longestStrChain(self, words: List[str]) -> int:
         dic = {}
 
-        # sort the words by key's length
+        # sort_algo the words by key's length
         # ["xbc", "xb","cxbc"] -> ['xb', 'xbc', 'cxbc']
         for word in sorted(words, key=len):
             # {'xb':1, 'xbc': 2, 'cxbc':1}
