@@ -64,12 +64,6 @@ class Solution:
                 res.append(i)
         return res
     
-sol = Solution()
-s= "cbaebabacd" 
-p= "abc"
-sol.findAnagrams(s,p)
 
-if a in b:
-    return True
 
 
