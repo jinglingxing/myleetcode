@@ -37,7 +37,7 @@ def main():
     print(dpMakeChange(clist,amnt,coinCount,coinsUsed),"coins")
     print("They are:")
     printCoins(coinsUsed,amnt)
-    print("The used list is as follows:")
+    print("The used All kind of LIST is as follows:")
     print(coinsUsed)
     
 main()

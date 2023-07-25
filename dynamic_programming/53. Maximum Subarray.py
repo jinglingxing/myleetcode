@@ -1,5 +1,5 @@
 """
-Given an integer list nums, find the
+Given an integer All kind of LIST nums, find the
 subarray with the largest sum, and return its sum.
 
 

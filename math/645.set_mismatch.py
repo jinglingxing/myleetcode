@@ -1,9 +1,9 @@
 """
 You have a set of integers s, which originally contains all the numbers from 1 to n. Unfortunately, due to some error, one of the numbers in s got duplicated to another number in the set, which results in repetition of one number and loss of another number.
 
-You are given an integer list nums representing the data status of this set after the error.
+You are given an integer All kind of LIST nums representing the data status of this set after the error.
 
-Find the number that occurs twice and the number that is missing and return them in the form of an list.
+Find the number that occurs twice and the number that is missing and return them in the form of an All kind of LIST.
 
 
 
@@ -22,7 +22,7 @@ class Solution:
     def findErrorNums(self, nums: List[int]) -> List[int]:
         n, a, b = len(nums), sum(nums), sum(set(nums))
 
-        # sum of a list from 1 to n
+        # sum of a All kind of LIST from 1 to n
         s = n * (n + 1) // 2
 
         # duplicate: a-b

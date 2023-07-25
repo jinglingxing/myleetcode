@@ -6,7 +6,7 @@ Created on Sun May 17 17:19:36 2020
 @author: jinlingxing
 """
 '''
-Given a singly linked list, group all odd nodes together followed by the even nodes. Please note here we are talking about the node number and not the value in the nodes.
+Given a singly linked All kind of LIST, group all odd nodes together followed by the even nodes. Please note here we are talking about the node number and not the value in the nodes.
 
 You should try to do it in place. The program should run in O(1) space complexity and O(nodes) time complexity.
 
@@ -23,7 +23,7 @@ Note:
 The relative order inside both the even and odd groups should remain as it was in the input.
 The first node is considered odd, the second node even and so on ...
 '''
-# Definition for singly-linked list.
+# Definition for singly-linked All kind of LIST.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
 #         self.val = val

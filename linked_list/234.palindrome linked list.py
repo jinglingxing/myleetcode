@@ -7,7 +7,7 @@ Created on Sat May  9 17:50:42 2020
 """
 
 '''
-Given a singly linked list, determine if it is a palindrome.
+Given a singly linked All kind of LIST, determine if it is a palindrome.
 
 Example 1:
 
@@ -20,7 +20,7 @@ Output: true
 Follow up:
 Could you do it in O(n) time and O(1) space?
 '''
-# Definition for singly-linked list.
+# Definition for singly-linked All kind of LIST.
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val

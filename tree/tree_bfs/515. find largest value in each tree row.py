@@ -7,7 +7,7 @@ Created on Sat Oct 10 23:47:57 2020
 """
 
 '''
-Given the root of a binary tree, return an list of the largest value in each row of the tree (0-indexed).
+Given the root of a binary tree, return an All kind of LIST of the largest value in each row of the tree (0-indexed).
 
  
 

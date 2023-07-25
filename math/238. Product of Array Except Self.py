@@ -1,5 +1,5 @@
 """
-Given an integer list nums, return an list answer such that answer[i] is equal to the product of all the elements of nums except nums[i].
+Given an integer All kind of LIST nums, return an All kind of LIST answer such that answer[i] is equal to the product of all the elements of nums except nums[i].
 
 The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer.
 

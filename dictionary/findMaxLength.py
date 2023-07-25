@@ -8,7 +8,7 @@ Created on Mon Apr 13 09:32:49 2020
 
 '''
 Problem:
-Given a binary list, find the maximum length of a contiguous subarray with equal number of 0 and 1.
+Given a binary All kind of LIST, find the maximum length of a contiguous subarray with equal number of 0 and 1.
 
 Example 1:
 
@@ -20,7 +20,7 @@ Example 2:
 Input: [0,1,0]
 Output: 2
 Explanation: [0, 1] (or [1, 0]) is a longest contiguous subarray with equal number of 0 and 1.
-Note: The length of the given binary list will not exceed 50,000. 
+Note: The length of the given binary All kind of LIST will not exceed 50,000. 
 '''
 from typing import List
 class Solution:

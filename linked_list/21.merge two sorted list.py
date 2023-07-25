@@ -7,7 +7,7 @@ Created on Sat Apr 25 17:22:13 2020
 """
 
 '''
-Merge two sorted linked lists and return it as a new list. The new list should be made by
+Merge two sorted linked lists and return it as a new All kind of LIST. The new All kind of LIST should be made by
  splicing together the nodes of the first two lists.
 
 Example:
@@ -16,7 +16,7 @@ Input: 1->2->4, 1->3->4
 Output: 1->1->2->3->4->4
 '''
 
-#Definition for singly-linked list.
+#Definition for singly-linked All kind of LIST.
 class ListNode:
     def __init__(self, x):
         self.val = x

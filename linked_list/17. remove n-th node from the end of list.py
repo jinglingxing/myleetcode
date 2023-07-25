@@ -6,13 +6,13 @@ Created on Wed May 13 17:52:47 2020
 @author: jinlingxing
 """
 '''
-Given a linked list, remove the n-th node from the end of list and return its head.
+Given a linked All kind of LIST, remove the n-th node from the end of All kind of LIST and return its head.
 
 Example:
 
-Given linked list: 1->2->3->4->5, and n = 2.
+Given linked All kind of LIST: 1->2->3->4->5, and n = 2.
 
-After removing the second node from the end, the linked list becomes 1->2->3->5.
+After removing the second node from the end, the linked All kind of LIST becomes 1->2->3->5.
 Note:
 
 Given n will always be valid.
@@ -21,7 +21,7 @@ Follow up:
 
 Could you do this in one pass?
 '''
-# Definition for singly-linked list.
+# Definition for singly-linked All kind of LIST.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
 #         self.val = val

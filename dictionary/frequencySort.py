@@ -7,7 +7,7 @@ Created on Fri May 22 11:24:50 2020
 """
 
 '''
-Given a string, sort_algo it in decreasing order based on the frequency of characters.
+Given a string, sort_algorithm it in decreasing order based on the frequency of characters.
 
 Example 1:
 

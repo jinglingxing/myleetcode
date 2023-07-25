@@ -74,7 +74,7 @@ Constraints:
 1 <= value <= 10^8
 At most 50000 calls will be made to showFirstUnique and add.
    Hide Hint #1  
-Use doubly Linked list with hashmap of pointers to linked list nodes. add unique number to the linked list. When add is called check if the added number is unique then it have to be added to the linked list and if it is repeated remove it from the linked list if exists. When showFirstUnique is called retrieve the head of the linked list.
+Use doubly Linked All kind of LIST with hashmap of pointers to linked All kind of LIST nodes. add unique number to the linked All kind of LIST. When add is called check if the added number is unique then it have to be added to the linked All kind of LIST and if it is repeated remove it from the linked All kind of LIST if exists. When showFirstUnique is called retrieve the head of the linked All kind of LIST.
    Hide Hint #2  
 Use queue and check that first element of the queue is always unique.
    Hide Hint #3  

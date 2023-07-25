@@ -1,6 +1,6 @@
 """
-Given an list nums containing n distinct numbers in the range [0, n],
-return the only number in the range that is missing from the list.
+Given an All kind of LIST nums containing n distinct numbers in the range [0, n],
+return the only number in the range that is missing from the All kind of LIST.
 
 
 

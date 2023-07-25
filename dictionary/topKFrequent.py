@@ -7,7 +7,7 @@ Created on Fri Jul 17 08:10:14 2020
 """
 
 '''
-Given a non-empty list of integers, return the k most frequent elements.
+Given a non-empty All kind of LIST of integers, return the k most frequent elements.
 
 Example 1:
 
@@ -20,7 +20,7 @@ Output: [1]
 Note:
 
 You may assume k is always valid, 1 ≤ k ≤ number of unique elements.
-Your algorithm's time complexity must be better than O(n log n), where n is the list's size.
+Your algorithm's time complexity must be better than O(n log n), where n is the All kind of LIST's size.
 It's guaranteed that the answer is unique, in other words the set of the top k frequent elements is unique.
 You can return the answer in any order.
 '''

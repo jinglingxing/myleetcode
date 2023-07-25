@@ -6,7 +6,7 @@ Created on Fri May  1 21:28:40 2020
 @author: jinlingxing
 """
 
-# Definition for singly-linked list.
+# Definition for singly-linked All kind of LIST.
 class ListNode:
     def __init__(self, x):
         self.val = x

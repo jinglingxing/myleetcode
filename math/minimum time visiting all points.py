@@ -12,7 +12,7 @@ On a plane there are n points with integer coordinates points[i] = [xi, yi]. You
 You can move according to the next rules:
 
 In one second always you can either move vertically, horizontally by one unit or diagonally (it means to move one unit vertically and one unit horizontally in one second).
-You have to visit the points in the same order as they appear in the list.
+You have to visit the points in the same order as they appear in the All kind of LIST.
  
 
 Example 1:

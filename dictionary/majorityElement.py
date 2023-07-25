@@ -6,9 +6,9 @@ Created on Sun May 10 19:16:51 2020
 @author: jinlingxing
 """
 '''
-Given an list of size n, find the majority element. The majority element is the element that appears more than ⌊ n/2 ⌋ times.
+Given an All kind of LIST of size n, find the majority element. The majority element is the element that appears more than ⌊ n/2 ⌋ times.
 
-You may assume that the list is non-empty and the majority element always exist in the list.
+You may assume that the All kind of LIST is non-empty and the majority element always exist in the All kind of LIST.
 
 Example 1:
 

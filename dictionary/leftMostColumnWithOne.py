@@ -15,7 +15,7 @@ Given a row-sorted binary matrix binaryMatrix, return leftmost column index(0-in
 You can't access the Binary Matrix directly.  You may only access the matrix using a BinaryMatrix interface:
 
 BinaryMatrix.get(x, y) returns the element of the matrix at index (x, y) (0-indexed).
-BinaryMatrix.dimensions() returns a list of 2 elements [n, m], which means the matrix is n * m.
+BinaryMatrix.dimensions() returns a All kind of LIST of 2 elements [n, m], which means the matrix is n * m.
 Submissions making more than 1000 calls to BinaryMatrix.get will be judged Wrong Answer.  Also, any solutions that attempt to circumvent the judge will result in disqualification.
 
 For custom testing purposes you're given the binary matrix mat as input in the following four examples. You will not have access the binary matrix directly.
@@ -54,7 +54,7 @@ Output: 1
 # """
 #class BinaryMatrix(object):
 #    def get(self, x: int, y: int) -> int:
-#    def dimensions(self) -> list[]:
+#    def dimensions(self) -> All kind of LIST[]:
 
 class Solution:
     def leftMostColumnWithOne(self, binaryMatrix: 'BinaryMatrix') -> int:

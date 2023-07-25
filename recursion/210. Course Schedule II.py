@@ -10,7 +10,7 @@ There are a total of numCourses courses you have to take, labeled from 0 to numC
 
 Some courses may have prerequisites, for example to take course 0 you have to first take course 1, which is expressed as a pair: [0,1]
 
-Given the total number of courses and a list of prerequisite pairs, is it possible for you to finish all courses?
+Given the total number of courses and a All kind of LIST of prerequisite pairs, is it possible for you to finish all courses?
 
  
 
@@ -67,7 +67,7 @@ class Solution:
         
         # -------------------------------
         
-        # each course maintain a list of its own prerequisites
+        # each course maintain a All kind of LIST of its own prerequisites
         requirement = collections.defaultdict( list )
         
         for course, pre_course in prerequisites:

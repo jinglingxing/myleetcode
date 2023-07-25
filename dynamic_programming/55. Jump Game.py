@@ -1,5 +1,5 @@
 """
-You are given an integer list nums. You are initially positioned at the list's first index, and each element in the list represents your maximum jump length at that position.
+You are given an integer All kind of LIST nums. You are initially positioned at the All kind of LIST's first index, and each element in the All kind of LIST represents your maximum jump length at that position.
 
 Return true if you can reach the last index, or false otherwise.
 

@@ -6,7 +6,7 @@ Created on Mon May 11 20:00:39 2020
 @author: jinlingxing
 """
 '''
-You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
+You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked All kind of LIST.
 
 You may assume the two numbers do not contain any leading zero, except the number 0 itself.
 
@@ -17,7 +17,7 @@ Output: 7 -> 0 -> 8
 Explanation: 342 + 465 = 807.
             
 '''
-# Definition for singly-linked list.
+# Definition for singly-linked All kind of LIST.
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val

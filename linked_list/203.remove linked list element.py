@@ -6,7 +6,7 @@ Created on Mon Jul  6 08:22:40 2020
 @author: jinlingxing
 """
 '''
-Remove all elements from a linked list of integers that have value val.
+Remove all elements from a linked All kind of LIST of integers that have value val.
 
 Example:
 
@@ -14,7 +14,7 @@ Input:  1->2->6->3->4->5->6, val = 6
 Output: 1->2->3->4->5
 '''
 
-# Definition for singly-linked list.
+# Definition for singly-linked All kind of LIST.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
 #         self.val = val

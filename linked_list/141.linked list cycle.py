@@ -8,7 +8,7 @@ Created on Tue Apr 28 16:58:23 2020
 
 
 
-#Definition for singly-linked list.
+#Definition for singly-linked All kind of LIST.
 class ListNode:
     def __init__(self, x):
         self.val = x

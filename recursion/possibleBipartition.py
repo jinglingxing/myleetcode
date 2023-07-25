@@ -74,7 +74,7 @@ class Solution:
         
         
         
-        # each person maintain a list of dislike
+        # each person maintain a All kind of LIST of dislike
         dislike_table = collections.defaultdict( list )
         
         # cell_#0 is dummy just for the convenience of indexing from 1 to N

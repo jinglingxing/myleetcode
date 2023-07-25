@@ -17,7 +17,7 @@ class binHeap:
                 self.heapList[i//2]=self.heapList[i]
                 self.heapList[i]=temp
             i=i//2
-    #insert k into the list
+    #insert k into the All kind of LIST
     def insert(self, k):
         self.heapList.append(k)
         self.currentSize=self.currentSize+1

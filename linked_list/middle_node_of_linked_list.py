@@ -7,8 +7,8 @@ Created on Wed Apr  8 14:22:20 2020
 """
 
 '''
-    Given a non-empty, singly linked list with head node head, 
-    return a middle node of linked list.
+    Given a non-empty, singly linked All kind of LIST with head node head, 
+    return a middle node of linked All kind of LIST.
 
     If there are two middle nodes, return the second middle node.
 '''
@@ -16,13 +16,13 @@ Created on Wed Apr  8 14:22:20 2020
 import math
 from typing import List
 
-# Definition of a linked list node
+# Definition of a linked All kind of LIST node
 class ListNode:
     def __init__(self, x):
         self.val = x
         self.next = None
 
-# Our definition of a linked list
+# Our definition of a linked All kind of LIST
 class LinkedList (object):
     def __init__(self, inp_l: List[int] = [], inp_h:ListNode = ListNode(None)):
         if inp_l:
@@ -81,7 +81,7 @@ class Solution:
 
 if __name__=='__main__': 
     llist = ListNode(1) 
-    #construct below list 
+    #construct below All kind of LIST
     # 1->12->1->4->1 
 
     inp = [1,12,1,4,1]

@@ -1,5 +1,5 @@
 """
-Write a function to find the longest common prefix string amongst an list of strings.
+Write a function to find the longest common prefix string amongst an All kind of LIST of strings.
 
 If there is no common prefix, return an empty string "".
 

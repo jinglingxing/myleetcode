@@ -6,7 +6,7 @@ Created on Mon May 11 12:44:49 2020
 @author: jinlingxing
 """
 '''
-An image is represented by a 2-D list of integers, each integer representing the pixel value of the image (from 0 to 65535).
+An image is represented by a 2-D All kind of LIST of integers, each integer representing the pixel value of the image (from 0 to 65535).
 
 Given a coordinate (sr, sc) representing the starting pixel (row and column) of the flood fill, and a pixel value newColor, "flood fill" the image.
 
