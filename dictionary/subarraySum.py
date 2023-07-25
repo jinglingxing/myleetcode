@@ -9,8 +9,8 @@ Created on Wed Apr 22 16:22:33 2020
 
 
 '''
-The length of the array is in range [1, 20,000].
-The range of numbers in the array is [-1000, 1000] and the range of the integer k is [-1e7, 1e7].
+The length of the list is in range [1, 20,000].
+The range of numbers in the list is [-1000, 1000] and the range of the integer k is [-1e7, 1e7].
 
     Hide Hint #1  
 Will Brute force work here? Try to optimize it.

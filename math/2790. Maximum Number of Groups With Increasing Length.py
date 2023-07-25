@@ -1,5 +1,5 @@
 """
-You are given a 0-indexed array usageLimits of length n.
+You are given a 0-indexed list usageLimits of length n.
 
 Your task is to create groups using numbers from 0 to n - 1, ensuring that each number, i, is used no more than usageLimits[i] times in total across all groups. You must also satisfy the following conditions:
 

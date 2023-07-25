@@ -7,7 +7,7 @@ Created on Thu May 28 11:49:55 2020
 """
 
 '''
-Given a non negative integer number num. For every numbers i in the range 0 ≤ i ≤ num calculate the number of 1's in their binary representation and return them as an array.
+Given a non negative integer number num. For every numbers i in the range 0 ≤ i ≤ num calculate the number of 1's in their binary representation and return them as an list.
 
 Example 1:
 

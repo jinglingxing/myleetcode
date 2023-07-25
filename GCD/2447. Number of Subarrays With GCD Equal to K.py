@@ -1,9 +1,9 @@
 """
-Given an integer array nums and an integer k, return the number of subarrays of nums where the greatest common divisor of the subarray's elements is k.
+Given an integer list nums and an integer k, return the number of subarrays of nums where the greatest common divisor of the subarray's elements is k.
 
-A subarray is a contiguous non-empty sequence of elements within an array.
+A subarray is a contiguous non-empty sequence of elements within an list.
 
-The greatest common divisor of an array is the largest integer that evenly divides all the array elements.
+The greatest common divisor of an list is the largest integer that evenly divides all the list elements.
 
 
 

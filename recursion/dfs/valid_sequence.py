@@ -8,7 +8,7 @@ Created on Thu Apr 30 22:05:38 2020
 '''
 Given a binary tree where each path going from the root to any leaf form a valid sequence, check if a given string is a valid sequence in such binary tree. 
 
-We get the given string from the concatenation of an array of integers arr and the concatenation of all values of the nodes along a path results in a sequence in the given binary tree.
+We get the given string from the concatenation of an list of integers arr and the concatenation of all values of the nodes along a path results in a sequence in the given binary tree.
 
  
 
@@ -45,7 +45,7 @@ Constraints:
 0 <= arr[i] <= 9
 Each node's value is between [0 - 9].
    Hide Hint #1  
-Depth-first search (DFS) with the parameters: current node in the binary tree and current position in the array of integers.
+Depth-first search (DFS) with the parameters: current node in the binary tree and current position in the list of integers.
    Hide Hint #2  
 When reaching at final position check if it is a leaf node.
 
