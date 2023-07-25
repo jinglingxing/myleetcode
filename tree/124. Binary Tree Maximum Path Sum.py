@@ -53,7 +53,7 @@ class Solution:
             print("root.val{},root.val+left+right{},left{},right{}".format(root.val, root.val+left+right, left, right))
             self.max_sum = max(self.max_sum, root.val, root.val+left+right, left+root.val, right+root.val)
             print("max_sum{}".format(self.max_sum))
-            return max(root.val, root.val+left, root.val+right)# reture current branch max value for further recursive
+            return max(root.val, root.val+left, root.val+right)# reture current branch max value for further recursion
         
     def maxPathSum(self, root: TreeNode) -> int:
         self.helper(root)

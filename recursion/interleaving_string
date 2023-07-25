@@ -12,7 +12,7 @@ class Solution:
         A, B = len(s1), len(s2)
         if A+B != N: return False
         memo = {}
-        # recursive function
+        # recursion function
         def rec(i,j,k):  
             if (i,j,k) in memo:
                 return memo[(i,j,k)]
