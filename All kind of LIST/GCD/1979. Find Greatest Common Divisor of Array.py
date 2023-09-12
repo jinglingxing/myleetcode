@@ -28,9 +28,16 @@ The greatest common divisor of 3 and 8 is 1.
 class Solution:
     def gcd(self, a, b):
         while b:
+            # 3, 8 -> 8, 3
+            # 8, 3 -> 3, 2
+            # 3, 2 -> 2, 1
+            # 2, 1 -> 1, 0
+            # 1, 0
             a, b = b, a % b
+            print(a, b)
         return a
 
     def findGCD(self, nums: List[int]) -> int:
         nums.sort()
+
         return self.gcd(nums[0], nums[-1])
